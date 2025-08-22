@@ -11,6 +11,9 @@ It supports **CRUD operations** (Create, Read, Update/Toggle, Delete) for managi
 - Delete tasks
 - Responsive UI with Bootstrap
 - Data persistence with MySQL
+- Priority for Task
+- Date deadline field
+- Notes or Description
 
 ---
 
