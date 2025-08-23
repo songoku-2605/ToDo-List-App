@@ -63,7 +63,9 @@ cd todo-springboot
 ```
 Create a database in MySQL:
 CREATE DATABASE todoapp;
+```
 Update src/main/resources/application.properties:
+```
 spring.datasource.url=jdbc:mysql://localhost:3306/todoapp
 spring.datasource.username=your-username
 spring.datasource.password=your-password
