@@ -1,4 +1,4 @@
-# ✅ To-Do List Application (Spring Boot + Thymeleaf + MySQL)
+# ✅ To-Do List Application 
 
 A simple **To-Do List Web Application** built using **Spring Boot, Thymeleaf, and MySQL**.  
 It supports **CRUD operations** (Create, Read, Update/Toggle, Delete) for managing daily tasks.  
@@ -27,8 +27,7 @@ It supports **CRUD operations** (Create, Read, Update/Toggle, Delete) for managi
 - **Thymeleaf** → Template engine for dynamic HTML
 - **Maven** → Build and dependency management tool
 
----
-
+```
 ## 📂 Project Structure
 TodoApp/
 │── src/main/java/com/example/Todo
@@ -51,7 +50,7 @@ TodoApp/
 │── pom.xml # Maven dependencies
 │── README.md # Documentation
 
----
+```
 
 ## ⚙️ Setup Instructions
 
@@ -59,7 +58,9 @@ TodoApp/
 ```bash
 git clone https://github.com/your-username/todo-springboot.git
 cd todo-springboot
+```
 2. Configure MySQL Database
+```
 Create a database in MySQL:
 CREATE DATABASE todoapp;
 Update src/main/resources/application.properties:
@@ -68,9 +69,14 @@ spring.datasource.username=your-username
 spring.datasource.password=your-password
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+```
 3. Build & Run
-mvn clean install
+
+```mvn clean install
 mvn spring-boot:run
+```
 4. Access the App
+```
 Open your browser and visit:
-👉 http://localhost:8080
+http://localhost:8080
+```
